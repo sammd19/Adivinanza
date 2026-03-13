@@ -5,10 +5,10 @@ public class Main {
         int nu  = 0, na = 0, rep = 0 ;
         Random rand = new Random();
         Scanner lector = new Scanner(System.in);
-        System.out.println("Adivine el numero aleatorio entre 1 y 50");
+        System.out.println("Adivine el numero aleatorio entre 1 y 50 tiene 3 oportunidades");
 
         na = rand.nextInt(50) + 1;
-        System.out.println(na);
+
         while (nu != na && rep < 3) {
             nu = Integer.parseInt(lector.nextLine());
 
